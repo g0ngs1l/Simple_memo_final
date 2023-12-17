@@ -1,0 +1,30 @@
+name: simple_memo_final
+description: "간단한 메모를 작성할 수 있는 프로그램입니다."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.3.0
+  flutter_rating_bar: ^4.0.1
+  font_awesome_flutter: ^10.6.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/images/
+  uses-material-design: true
