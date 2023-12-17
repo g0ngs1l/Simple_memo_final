@@ -309,7 +309,7 @@ class _EditScreenState extends State<EditScreen> {
                   controller: _feedbackController,
                   vertical: Sizes.size20,
                   horizontal: Sizes.size20,
-                  hintText: "떠오른 아이디어를 기반으로 전달받은\n피드백을 정리해 주세요.",
+                  hintText: "오늘 하루를 돌아보고\n부족했던 점을 정리해봅시다.",
                   maxLines: 5,
                   maxLength: 500,
                 ),
